@@ -1,0 +1,98 @@
+body {
+	background-color: rgb(230,230,230);
+	color: rgb(60,60,60);
+	font-family: Roboto;
+}
+
+h1, h2 {
+font-family: Lora;
+}
+
+h2 {
+	color: green;
+	font-size: 24px;
+	text-justify: center;
+	font-weight: bold;
+}
+
+h1 {
+color: rgb(100, 100, 100);
+font-size: 28px;
+}
+
+p {
+	;
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+	color: black;
+}
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle {
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	font-size: 30px;
+}
+.list-inline li {
+	display: inline;
+	padding: 30px;
+}
+.list-inline i {
+	font-size: 40px;
+	color: rgb(200,200,200);
+}
+.list-inline i:hover {
+	color: blue;
+}
+#Reading p {
+	margin-bottom: 20px;
+}
+#Sports p {
+	margin-bottom: 20px;
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
